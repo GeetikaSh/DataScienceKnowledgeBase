@@ -33,6 +33,9 @@ Suppose the word "data" appears 3 times in a document of 100 words, and in 10 ou
 The **logarithm in the IDF** part of TF-IDF reduces the impact of very common words and smooths the scale of values. Using log_e (natural logarithm) helps prevent extremely high IDF scores for rare words and makes the metric more stable and interpretable. It compresses the range of IDF values, ensuring that the difference between common and rare terms.
 
 ## **Range of TF-IDF**
+**High →** word is frequent in this doc, rare overall (important!)\
+**Low →** word is either rare in doc or too common everywhere
+
 The range of TF-IDF values depends on the term frequency (TF) and inverse document frequency (IDF):
 - **TF** ranges from 0 (term does not appear) to 1 (term appears in every position in the document).
 - **IDF** is always ≥ 0, and increases as the term becomes rarer across the corpus.
