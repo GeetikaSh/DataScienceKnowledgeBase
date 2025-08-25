@@ -89,3 +89,57 @@ print("Most similar:", skip_model.wv.most_similar("embeddings"))
 - Clustering similar words or documents.
 - Input features for downstream ML/NLP models.
 
+## 🔑 Key Parameters
+1. sentences
+- Input training data.
+- A list of tokenized sentences:
+- [["i", "love", "nlp"], ["word2vec", "creates", "embeddings"]]
+
+2. vector_size (default=100)
+- Dimensionality of the word embeddings.
+- Higher values → capture more semantic features, but increase memory & training time.
+- Typical range: 100–300.
+
+3. window (default=5)
+- Maximum distance between current word and context words.
+- Larger → broader context; smaller → narrower/local context.
+
+4. min_count (default=5)
+- Ignores words with frequency < min_count.
+- Helps remove noise from rare words.
+- Example: min_count=1 keeps all words.
+
+5. sg (default=0)
+- Training algorithm:
+  - sg=0 → CBOW (faster, frequent words).
+  - sg=1 → Skip-Gram (better for rare words, large datasets).
+
+6. hs (default=0)
+- Hierarchical softmax:
+  - hs=1 → use hierarchical softmax.
+  - hs=0 → use negative sampling.
+
+7. negative (default=5)
+- Number of negative samples (when hs=0).
+- Typical range: 5–20.
+- Higher values → better accuracy, slower training.
+
+8. epochs (default=5)
+- Number of passes (iterations) over the corpus.
+- More epochs → stronger embeddings, but risk of overfitting.
+
+9. workers
+- Number of threads for training.
+- Use number of CPU cores available for speed.
+
+10. seed
+- Random seed for reproducibility.
+
+**⚡ Additional Parameters**
+- alpha → Initial learning rate (default 0.025).
+- min_alpha → Final learning rate after training.
+- max_vocab_size → Restrict vocabulary size (helps with large corpora).
+- sample → Threshold for subsampling frequent words (default 1e-3).
+- compute_loss → If True, reports loss during training.
+- callbacks → Custom callbacks for logging/progress.
+
