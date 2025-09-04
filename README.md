@@ -1,6 +1,6 @@
 # DataScienceKnowledgeBase
 
-# 🎯 Senior Data Scientist Roadmap (Aug 2025 – Aug 2026)
+# 🎯 Senior Data Scientist Roadmap (Sep 2025 – Sep 2026)
 
 Welcome to my year-long journey to sharpen Data Science and AI skills, build advanced projects, and prepare for senior Data Scientist roles. This repository is structured as a monthly roadmap with curated topics, hands-on projects, and interview preparation tracks.
 
@@ -14,18 +14,6 @@ Each month is focused on one major theme, along with:
 - 🛠️ 1 Hands-on Mini or Capstone Project
 - 📈 Interview Prep (Leetcode/Case Studies)
 - 💬 Blog or README Documentation
-
----
-
-### 🔹 August 2025: **Foundations & GitHub Setup**
-- Python Best Practices
-- Data Cleaning (pandas, missing values, outliers)
-- Git/GitHub Workflow
-- README Templates
-- Project Folder Structure
-
-📌 Project: Data Cleaning Pipeline (Banking or E-commerce dataset)  
-📓 Blog: “Restarting with Purpose – My 12-Month Roadmap”
 
 ---
 
@@ -147,6 +135,13 @@ Each month is focused on one major theme, along with:
 
 📌 Milestone: Share portfolio with 20+ recruiters & apply!  
 📓 Blog: “My Journey to Senior Data Scientist – A Reflection”
+
+---
+
+## September 2023: **ML-OPS**
+- Knowledge of key MLOps tools (MLflow, DVC, Docker, CI/CD, cloud services)
+- One end-to-end MLOps project (ready for GitHub portfolio + interview discussion)
+- Confidence to explain why MLOps matters in ML Engineering interviews
 
 ---
 
