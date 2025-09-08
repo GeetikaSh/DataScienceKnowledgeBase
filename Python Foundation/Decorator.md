@@ -1,10 +1,4 @@
-# Python Decorators: A Core Concept for Aspiring ML Engineers
-
-This document provides a comprehensive overview of Python **Decorators**, tailored for aspiring Machine Learning Engineers preparing for interviews. It clarifies key concepts, highlights their relevance in the ML domain, and addresses common interview questions.
-
----
-
-## What is a Decorator?
+# What is a Decorator?
 A **Decorator** in Python is a special function that modifies the behavior of another function or class method without permanently changing its code.
 
 - **Analogy**: Think of a decorator like a gift wrap. The object (function) remains the same inside, but the wrapping (decorator) changes how it looks or behaves when presented.
@@ -63,6 +57,12 @@ def add(a, b):
 
 add(5, 10)
 ```
+**Output:**
+```
+Calling add with arguments (5, 10), {}
+add returned 15
+15
+```
 
 ---
 
@@ -87,6 +87,12 @@ def train_model():
     return "Model trained!"
 
 train_model()
+```
+
+**Output:**
+```
+train_model executed in 2.0001s
+"Model trained!"
 ```
 
 ---
@@ -175,4 +181,3 @@ Hello Alice
 ## Key Takeaways
 - Decorators let you **extend behavior** without modifying function code.
 - They are heavily used in ML frameworks (e.g., TensorFlow uses `@tf.function`).
-- Mastering decorators improves code modularity and interview confidence.
