@@ -1,10 +1,4 @@
-# Python Generators: A Core Concept for Aspiring ML Engineers
-
-This document provides a comprehensive overview of Python **Generators**, tailored for aspiring Machine Learning Engineers preparing for interviews. It clarifies key concepts, highlights their relevance in the ML domain, and addresses common interview questions.
-
----
-
-## What is a Generator?
+# Generator?
 A **Generator** in Python is a special type of function that allows you to iterate over a sequence of values lazily, meaning it produces items one at a time **only when required**, instead of generating the entire sequence in memory.
 
 - **Analogy**: A generator is like a vending machine. Instead of handing you all snacks at once, it gives you one item each time you press a button.
@@ -46,8 +40,19 @@ Like list comprehensions, but with parentheses `()` instead of brackets `[]`.
 
 ```python
 squares = (x*x for x in range(5))
+print(squares)
 for sq in squares:
     print(sq)
+```
+
+**Output:**
+```
+<generator object <genexpr> at 0x7fd2c837cad0>
+0
+1
+4
+9
+16
 ```
 
 ---
@@ -141,4 +146,3 @@ for augmented in data_augmenter(dataset):
 ## Key Takeaways
 - Generators are **memory-efficient** and suitable for big data and ML workloads.
 - Use them in **data pipelines** to handle streams/batches dynamically.
-- Mastery of generators demonstrates strong Python fundamentals in interviews.
