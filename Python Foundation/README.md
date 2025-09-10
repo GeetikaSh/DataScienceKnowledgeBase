@@ -5,4 +5,4 @@
 - Decorators, generators, context managers
 - Exception handling
 - File handling, JSON/CSV basics
-- Difference Between Tuble, List, Dictionary
+- Difference Between Tuple, List, Dictionary
