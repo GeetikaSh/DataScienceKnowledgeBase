@@ -6,34 +6,9 @@ Welcome to my year-long journey to sharpen Data Science and AI skills, build adv
 
 ---
 
-## 🗓️ Monthly Topics Breakdown
-
-Each month is focused on one major theme, along with:
-
-- 📚 Core Concepts
-- 🛠️ 1 Hands-on Mini or Capstone Project
-- 📈 Interview Prep (Leetcode/Case Studies)
-- 💬 Blog or README Documentation
-
----
-
-### 🔹 September 2025: **Exploratory Data Analysis (EDA) & Storytelling**
-- Pandas Profiling, Seaborn, Plotly
-- Feature Engineering
-- Dashboards with Streamlit or Power BI
-
-📌 Project: EDA Report on Real-world Kaggle dataset  
-📓 Blog: “EDA for Decision Making: From Insight to Action”
-
----
-
-### 🔹 October 2025: **Supervised Learning – Classification**
-- Logistic Regression, Decision Trees, Random Forests
+## 🔹 October 2025: **Supervised Learning – Classification**
+- Random Forests
 - Handling Imbalanced Data (SMOTE, Undersampling)
-- Model Evaluation (Precision/Recall, ROC-AUC)
-
-📌 Project: Customer Churn Prediction  
-📓 Interview Prep: Case Study – Churn Model for Telco
 
 ---
 
@@ -138,10 +113,121 @@ Each month is focused on one major theme, along with:
 
 ---
 
-## September 2023: **ML-OPS**
+## September 2026: **ML-OPS**
 - Knowledge of key MLOps tools (MLflow, DVC, Docker, CI/CD, cloud services)
 - One end-to-end MLOps project (ready for GitHub portfolio + interview discussion)
 - Confidence to explain why MLOps matters in ML Engineering interviews
+
+---
+
+## Octuber 2026:
+
+### Week 1:
+Focus: Sharpen EDA, statistical intuition, and feature engineering
+Learn:
+Advanced Pandas, Numpy, Scipy
+Statistical inference, hypothesis testing
+Feature selection (VIF, Mutual Info, Boruta)
+Imbalanced data handling (SMOTE, ADASYN)
+Project:
+➡️ EDA + Feature Engineering Pipeline on Kaggle (Hotel Booking Demand / Telecom Churn)
+Deliverable: Publish blog: “How Feature Engineering Impacts ML Accuracy”
+
+### Week 2:
+Focus: Deep dive into supervised & unsupervised ML
+Learn:
+Regression, Classification, Clustering
+Regularization (L1, L2), Ensemble methods
+Model interpretability (SHAP, LIME)
+Hyperparameter tuning (Optuna, GridSearchCV)
+Project:
+➡️ Model Comparison Dashboard (RandomForest vs XGBoost vs CatBoost)
+
+### Week3: 
+Focus: Automate and productionize ML
+Learn:
+Scikit-learn Pipelines
+Feature Stores (Feast or Azure Feature Store)
+Cross-validation & experiment tracking (MLflow)
+Project:
+➡️ MLflow-based Model Tracking for Churn Prediction
+Deliverable: GitHub repo + medium post
+
+### Week4:
+ocus: Neural networks, backprop, CNNs
+Learn:
+PyTorch fundamentals
+CNNs, activation functions, optimizers
+Image augmentations, dropout, batch norm
+Model training tricks (LR scheduling, gradient clipping)
+Project:
+➡️ Image Classification on Fashion-MNIST with PyTorch
+Deliverable: Code + Report: “CNNs Simplified”
+
+---
+
+## November 2026
+
+### Week1:
+Focus: Text representation & transformer intuition
+Learn:
+Tokenization, Word2Vec, BERT, GPT architecture
+Fine-tuning Hugging Face models
+Text generation, summarization, embeddings
+Project:
+➡️ Fine-tune DistilBERT for Sentiment Analysis
+
+### Week2:
+Focus: Handle large-scale data for ML
+Learn:
+PySpark (joins, window functions, UDFs)
+ETL pipeline design
+Data partitioning and optimization
+Orchestration (Airflow / Prefect)
+Project:
+➡️ Spark + Airflow Pipeline for Real-Time Hotel Bookings Feed
+
+### Week3:
+Focus: Automate training, versioning, deployment
+Learn:
+Docker, GitHub Actions
+CI/CD for ML with MLflow + Azure
+Model Registry, Rollback, Monitoring
+Kubernetes basics (Minikube or Azure AKS)
+Project:
+➡️ CI/CD Pipeline for Model Deployment using FastAPI + Docker
+
+### Week4:
+Focus: Build real AI applications
+Learn:
+LangChain, LlamaIndex
+Embeddings & Vector DBs (Cognitive Search / Chroma / FAISS)
+RAG pipelines, prompt templates
+Evaluation metrics for LLMs (faithfulness, context recall)
+Project:
+➡️ LLM-powered Hotel Assistant using LangChain + Azure Search
+
+## December 2026
+
+### Week1:
+Focus: Multi-step reasoning and autonomy
+Learn:
+LangGraph, CrewAI / AutoGen
+Function calling, tools, memory
+Integrating APIs with agent loops
+Task decomposition strategies
+Project:
+➡️ Travel Itinerary Agent that Plans & Books via APIs
+
+### Week2: System Design for AI
+Focus: Scaling and serving models efficiently
+Learn:
+Model serving architectures (microservices vs monoliths)
+Load balancing, caching
+Message queues (Kafka, RabbitMQ)
+Monitoring & alerting (Prometheus, Grafana)
+Project:
+➡️ End-to-End ML System Architecture for Recommendation Engine
 
 ---
 
